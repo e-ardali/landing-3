@@ -21,6 +21,7 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
-        "@tabler/core": "^1.0.0-beta16"
+        "@tabler/core": "^1.0.0-beta16",
+        "vue-toastification": "^2.0.0-rc.5"
     }
 }

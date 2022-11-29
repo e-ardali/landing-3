@@ -15,7 +15,7 @@ return new class extends Migration {
         Schema::create('campaigns', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('slug');
+            $table->text('content')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         \App\Models\User::factory()->create([
-            'name' => 'Admin',
+            'name' => 'مدیر',
             'username' => 'landing-admin',
             'password' => Hash::make('V6k60^OJswYJ'),
             'role' => 1

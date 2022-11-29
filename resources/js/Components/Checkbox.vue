@@ -25,6 +25,8 @@ const proxyChecked = computed({
         emit('update:checked', val);
     },
 });
+
+
 </script>
 
 <template>

@@ -77,7 +77,7 @@ const submit = () => {
                             Forgot your password?
                         </Link>-->
 
-                        <PrimaryButton class="btn btn-primary w-100" :disabled="form.processing">
+                        <PrimaryButton class="btn btn-primary w-100" type="submit" :disabled="form.processing">
                             Log in
                         </PrimaryButton>
                     </div>
